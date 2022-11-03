@@ -1,0 +1,4 @@
+<h1>The Game</h1>
+
+<button *ngIf="!isStart" (click)="toggleGame()">Start Game</button>
+<button *ngIf="isStart" (click)="toggleGame()">Stop Game</button>

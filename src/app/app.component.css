@@ -1,0 +1,12 @@
+.number {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.number_even {
+  background-color: lightgreen;
+}
+
+.number_odd {
+  background-color: orange;
+}
